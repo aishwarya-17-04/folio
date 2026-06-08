@@ -41,10 +41,9 @@
   /* Soft shadow (one shadow, used everywhere) */
   --shadow: 0 4px 16px rgba(124, 134, 215, 0.06);
 
+  --name: #13ffeb;
   
- --name: #78fffbdf;
 }
-
 
 /* ---------- 2. DARK MODE ---------- JavaScript adds class="dark" to <body>. Only the colour tokens change — everything else stays the same. */
 body.dark {
@@ -55,6 +54,7 @@ body.dark {
   --card: #1a2332;
   --border: rgba(255, 255, 255, 0.12);
   --shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  --name: #6B5B95;
 }
 
 /* ---------- 3. RESET + BASE ---------- */
